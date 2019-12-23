@@ -1,4 +1,10 @@
-# Steps to run mobile tests
+#Task 1:
+ ## Scenarios: 
+ https://docs.google.com/spreadsheets/d/1FaY47FcBOSvZeSv7qOfK2ra22PoRDez4-17ZFGXSWmI/edit?usp=sharing
+ 
+ ## Issues:
+  https://docs.google.com/document/d/1wcr6DaOa37togwEt0hJUlgNtvGVwcvYIiQiYZfID2rs/edit?usp=sharing
+# Task 2: Steps to run mobile tests
  
  ## Note:
  App is automated considering app location as `United States` because based on the location currency changes. Hence please make sure app location is set to `United States`. Here i have used emulator where location is set to `United States`
@@ -23,7 +29,7 @@
 mvn clean test -DgroupName=MOBILE
 ```
 
-# Steps to run API tests
+# Task 3: Steps to run API tests
 
 ## Note:
 * API is expecting some kind of authentication while automating it. Which is no where mentioned in the README.md. 
